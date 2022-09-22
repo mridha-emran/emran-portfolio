@@ -1,0 +1,51 @@
+nav {
+  height: 4rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #181818;
+
+   div {
+    display: flex;
+    align-items: center;
+
+     .Logo {
+      height: 4rem;
+      width: auto;
+    }
+
+     a {
+        text-decoration: none;
+      margin: 0 2rem;
+      color: white;
+      transition: color 0.3s;
+
+      &:hover {
+        color: rgb(117, 116, 116);
+      }
+
+       svg {
+        color: red;
+        transition: inherit;
+        font-size: 1.5rem;
+        &:hover {
+          color: rgb(117, 116, 116);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 1rem;
+     div .Logo{
+        height: 2rem;
+        
+     }   
+     div a {
+      margin: 0 0.5rem;
+    }
+  }
+}
