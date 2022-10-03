@@ -4,7 +4,7 @@ import { motion} from "framer-motion";
 import AnimatedLetters from '../../components/animatedLetters/AnimatedLetters';
 
 import { 
-  faNodeJs,faCss3,faGitAlt,faHtml5,faJsSquare,faReact,faPython,
+  faNodeJs,faCss3,faGitAlt,faHtml5,faJsSquare,faReact
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //scss

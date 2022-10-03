@@ -55,6 +55,7 @@
         margin-right: 12vh;
         display: flex;
         align-items: center;
+        animation: zoomInDown 1 ease-in-out 4s;
         .cubespinner {
             animation-name: spincube;
             animation-timing-function: ease-in-out;

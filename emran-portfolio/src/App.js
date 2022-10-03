@@ -10,6 +10,7 @@ import Skills from './views/skills/Skills'
 
 //scss
 import './App.scss'
+import SocialMediaIcon from './components/socialMediaIcon/SocialMediaIcon'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <Navbar />
         <Layout />
+        <SocialMediaIcon />
       <Routes>     
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About />} />
