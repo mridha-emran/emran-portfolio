@@ -2,6 +2,11 @@ import { useEffect, useState } from 'react'
 import { motion} from "framer-motion";
 
 import AnimatedLetters from '../../components/animatedLetters/AnimatedLetters';
+
+import { 
+  faNodeJs,faCss3,faGitAlt,faHtml5,faJsSquare,faReact,faPython,
+} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //scss
 import './home.scss';
 
@@ -61,7 +66,26 @@ const Home = () => {
           </div>
 
           <div className="container-cube">
-           <h1>cube</h1>
+           <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faNodeJs} color="#6cc24a" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+            </div>
+          </div>
           </div>
 
         </div>
