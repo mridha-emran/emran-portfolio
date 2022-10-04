@@ -28,10 +28,9 @@ const Home = () => {
 
   return (
     <>
-        <div className="container-main-home">
+        <div className="container-main home">
        
-          <div className="container-text">
-            
+          <div className=" container-left home-text">          
             <div className="text-zone">
                <h1>
                 <span className={letterClass}>H</span>
@@ -65,7 +64,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="container-cube">
+          <div className="container-right home-cube">
            <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faNodeJs} color="#6cc24a" />

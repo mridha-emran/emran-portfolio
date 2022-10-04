@@ -7,10 +7,12 @@ import About from './views/about/About'
 import Contact from './views/contact/Contact'
 import Home from './views/home/Home'
 import Skills from './views/skills/Skills'
+import SocialMediaIcon from './components/socialMediaIcon/SocialMediaIcon'
 
 //scss
 import './App.scss'
-import SocialMediaIcon from './components/socialMediaIcon/SocialMediaIcon'
+import './globalStyle.scss'
+
 
 
 
