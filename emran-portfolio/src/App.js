@@ -12,6 +12,7 @@ import SocialMediaIcon from './components/socialMediaIcon/SocialMediaIcon'
 //scss
 import './App.scss'
 import './globalStyle.scss'
+import Project from './views/project/Project'
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/skills" element={<Skills/>} />
+          <Route path="/project" element={<Project/>} />
       </Routes>
     </Router>
     </>

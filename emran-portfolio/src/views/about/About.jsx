@@ -15,7 +15,6 @@ const About = () => {
                 <br/>
                 {useTypedText("I'm emran.", 50, 200)}
               </h1>
-              <br/>
               <h2>
                 {useTypedText("I graduated as a full-stack web developer and iam now looking for a job. You may have noticed it in mon portfolio, I did a few projects during my training. I enjoy creating interesting designs and user-friendly features. If you're looking for a developer to add to your team, I'd love to hear from you!", 30, 350)}
               </h2>
