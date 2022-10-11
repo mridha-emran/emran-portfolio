@@ -36,8 +36,8 @@ const Home = () => {
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i</span>
                 <br/>
-                <span className={`${letterClass} _13`}>I</span>
-                <span className={`${letterClass} _14`}>'m</span>
+                <span className={`${letterClass} _13`}>Je &nbsp; </span>
+                <span className={`${letterClass} _14`}> suis</span>
                 <motion.div
                   className={`${letterClass} _14`}
                   style={{ display: "inline-block" }}

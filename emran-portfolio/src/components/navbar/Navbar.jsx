@@ -13,11 +13,11 @@ const Navbar = () => {
       </motion.div>
 
       <div>
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/skills">Skills</Link>
+        <Link to="/">Accueil</Link>
+        {/* <Link to="/skills">compétences</Link> */}
+        <Link to="/about">À propos</Link>
         <Link to="/project">Projects</Link>
-        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </nav>
   );

@@ -24,6 +24,7 @@ function App() {
         <Navbar />
         <Layout />
         <SocialMediaIcon />
+     
       <Routes>     
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About />} />
