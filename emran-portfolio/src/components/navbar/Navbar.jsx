@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <div>
         <Link to="/">Accueil</Link>
-        {/* <Link to="/skills">compétences</Link> */}
+        <Link to="/skills">compétences</Link>
         <Link to="/about">À propos</Link>
         <Link to="/project">Projects</Link>
         <Link to="/contact">Contact</Link>
