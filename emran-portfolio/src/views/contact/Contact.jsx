@@ -1,14 +1,55 @@
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import "./contact.scss"
 import Map from "../../components/map/Map"
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 const Contact = () => {
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
 
+    emailjs
+      .sendForm(
+         process.env.REACT_APP_SERVICE_ID,
+         process.env.REACT_APP_TEMPLATE_ID,
+         form.current,
+         process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        () => {
+       
+          toast.success('Message successfully sent!')
+          const timeout = setTimeout(() => {
+            window.location.reload(false)
+          }, 5600)
 
+          return () => clearTimeout(timeout)
+        },
+        () => {
+          toast.error('Failed to send the message, please try again')
+
+        }
+      )
+  }
   return (
     <>  
     <div className="container-main">
       <div className="container-left">     
           <div className="contact-form">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
+               <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+               />
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
@@ -67,7 +108,7 @@ export default Contact
 
 
 
-// import Map  from '../../components/card/projectCard/Map'
+
 
 // // Email js
 
