@@ -1,4 +1,5 @@
 import IconCloud from '../../components/iconCloud/IconCloud'
+import PageTitle from '../../components/pageTitel/Pagetitel'
 import './skills.scss'
 const Skills = () => {
 
@@ -6,6 +7,7 @@ const Skills = () => {
   return (
     <>
        <div className="container-main">
+        <PageTitle text = 'COMPÉTENCE' />
         <div className="container-left">
           <div className="skill-text">
           <p>

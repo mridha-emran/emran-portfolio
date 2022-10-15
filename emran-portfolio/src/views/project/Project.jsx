@@ -2,12 +2,14 @@
 import './project.css'
 import  ProjectCard  from '../../components/card/projectCard/ProjectCard';
 import { projectsData } from '../../data/projectsData'
+import PageTitle from '../../components/pageTitel/Pagetitel';
 
 function Project() {
 
     return (      
         
         <div className="project-container">
+         <PageTitle text ='PROJECTS' />
           <div className="project-grid">
                {projectsData.map(project => (
                   <ProjectCard

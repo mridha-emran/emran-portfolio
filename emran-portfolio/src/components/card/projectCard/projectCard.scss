@@ -2,14 +2,14 @@
     box-shadow: 4px 4px 8px rgb(117, 117, 116);
      border: 1px solid white;
     background-color: transparent;
-    width: 250px;
-    height: 360px;
+    width: 240px;
+    height: 340px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.4rem 2rem;
+    padding: 1rem 1.6rem;
     position: relative;
     cursor: pointer;
     overflow: hidden;
@@ -52,8 +52,8 @@
                     position: relative;
                     align-items:center ;
                     justify-content: center;
-                    width: 40px;
-                    height: 40px;
+                    width: 35px;
+                    height: 35px;
                     border-radius: 50px;
                     border: 2px solid wheat;
                     color: aliceblue;
@@ -93,7 +93,7 @@
         position: absolute;
         bottom: 20px;
         right: 0;
-        width: 140px;
+        width: 130px;
         font-size: 0.8rem;
         display: flex;
         justify-content: center;

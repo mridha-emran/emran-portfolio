@@ -3,11 +3,13 @@ import {useTypedText} from "../../components/typingText/TypingText"
 import "./about.scss"
 import Image from "../../assest/phNew.png"
 import { motion } from 'framer-motion'
+import PageTitle from "../../components/pageTitel/Pagetitel"
 const About = () => {
   
   return (
     <>
      <div className="container-main about">
+       <PageTitle text = "À PROPOS" />
         <div className="container-left introduction">
           <div className="about-text">
               <h1 className= "header text-H1-color">

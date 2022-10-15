@@ -4,6 +4,7 @@ import "./contact.scss"
 import Map from "../../components/map/Map"
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import PageTitle from '../../components/pageTitel/Pagetitel'
 const Contact = () => {
   const form = useRef()
   const sendEmail = (e) => {
@@ -35,6 +36,7 @@ const Contact = () => {
   return (
     <>  
     <div className="container-main">
+      <PageTitle text ="CONTACT" />
       <div className="container-left">     
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

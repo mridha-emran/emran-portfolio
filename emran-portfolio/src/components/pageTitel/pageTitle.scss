@@ -1,0 +1,18 @@
+.titleText{
+    position: fixed;
+    top: 14%;
+    left: 6%;  
+     color:rgba(252, 246, 250, 0.1);
+     font-weight: 600;
+     font-size: calc(5rem + 5vw);
+    z-index:0;
+}
+
+ @media screen and (max-width: 600px) {
+     .titleText {
+        top: 12%;
+        left: 3%;
+        font-size: calc(2.5rem + 3vw);
+     }
+    
+  }
