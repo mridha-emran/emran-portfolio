@@ -24,18 +24,49 @@
         animation-delay: 1.3s;
       }
     }
-  }
-  .cloud{ 
+}
+.cloud{ 
     padding: 10% 10% 5% 20%; 
-  }
+}
 
-  @media screen and (max-width: 600px) {
-     .skill-text {
-        padding: 20% 4% 4% 5%; 
-     }
-     .cloud{
-       width:90vw;
-       padding: 20% .5% .5% .5%; 
-       
+@media screen and (max-width: 900px) {
+    .skill-text {
+      padding: 10%; 
+      p {
+      font-size: 22px;
+      
     }
+   }
+   .cloud{
+     width:80vw;
+     padding: 2% 5%; 
+     
   }
+}
+@media screen and (max-width: 600px) {
+     .skill-text {
+      padding: 12%; 
+      p {
+      font-size: 18px;
+      
+    }
+   }
+   .cloud{
+     width:90vw;
+     padding: 15% 5%; 
+     
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .skill-text {
+      padding: 10%; 
+      font-size: 15px;
+
+   }
+   .cloud{
+     width:80vw;
+     padding: 25% 5%; 
+     
+  }
+}

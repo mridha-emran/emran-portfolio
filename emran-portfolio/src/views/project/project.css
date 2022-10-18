@@ -1,5 +1,4 @@
 
-
 .project-container {
     margin-top: 8%;
     width: 100%;
@@ -20,5 +19,14 @@
     .project-grid {
         gap: 1.5rem;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .project-container {
+    width: 80%;
+    margin-left: 20px;
+
+
+}
 }
 

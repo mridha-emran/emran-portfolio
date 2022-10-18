@@ -87,7 +87,7 @@ const Contact = () => {
           </div>
       </div>
     
-       <div className="container-right">
+       <div className="container-right map">
         <div className="info-map">
           Emran Mridha
           <br />

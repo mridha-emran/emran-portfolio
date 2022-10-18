@@ -1,6 +1,6 @@
 .titleText{
     position: fixed;
-    top: 14%;
+    top: 13%;
     left: 6%;  
      color:rgba(252, 246, 250, 0.1);
      font-weight: 600;
@@ -8,9 +8,18 @@
     z-index:0;
 }
 
+ @media screen and (max-width: 900px) {
+     .titleText {
+        top: 8%;
+        left: 4%;
+        font-size: calc(4.5rem + 4.5vw);
+       
+     }
+    
+  }
  @media screen and (max-width: 600px) {
      .titleText {
-        top: 12%;
+        top: 13.5%;
         left: 3%;
         font-size: calc(2.5rem + 3vw);
      }

@@ -30,12 +30,11 @@
          
                 @keyframes back {
 
-                100%{
-                    background-position: 2000px 0;
-                }
+                    100%{
+                        background-position: 2000px 0;
+                    }
                 }
             }
-  
             h2 {
                 color: #8d8d8d;
                 margin-top: 20px;
@@ -127,6 +126,34 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .home {
+    .home-text{
+        margin-top: 2.5vh;
+        width: 100vw;
+        height: 50%;
+        .text-zone {
+            margin-top: 2%;
+            margin-left: 10%;
+            h1 {
+                font-size: 6rem;
+                line-height: 6rem;
+                    .myName{
+                        font-size: 4rem;                 
+                    }
+            }
+              h2 {
+                margin-top: 5px;
+              }
+
+        }
+    }
+    .home-cube{
+        margin-top: 20vh;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .home {
     .home-text{
@@ -149,6 +176,35 @@
     }
     .home-cube{
         margin-top: 15vh;
+        
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .home {
+    .home-text{
+        margin-top: 2vh;
+        .text-zone {
+            margin-top: 1.5%;
+            margin-left: 10%;
+            h1 {
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+                    .myName{
+                        font-size: 3rem;                 
+                    }
+            }
+              h2 {
+                margin-top: 5px;
+              }
+
+        }
+    }
+    .home-cube{
+        margin-top: 9vh;
     }
   }
 }

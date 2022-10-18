@@ -119,11 +119,12 @@
     }
   }
 }
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 900px) {
+
 .contact-form {
   width: 100%;
-  margin-top: 5vh;
+  margin-top: 12vh;
+   margin-left: 2vw;
   ul {
     li.half {
       width: 100%;
@@ -138,33 +139,80 @@
      margin-left: 45px;
   }
 }
-.map-wrap {
- margin-left: 15vw;
- margin-top: 20vh;
- background: rgba(8, 253, 216, 0.1);
- width: 70%;
- overflow: hidden;
 
-}
-.info-map {
-  position: absolute;
-  right: 15%;
-  margin-left: 3vw;
+.map{
+  margin-top:2vh ;
+  width: 100vw;
+  height:40vh;
+  margin-bottom: 5vh;
+
+  .map-wrap {
+  margin-left: 15vw;
   margin-top: 20vh;
-  width: 120px;
-  padding: 10px;
-  color: #fff;
-  font-size: 14px;
-  border-radius: 0.3rem;
-;
-
-  span {
-    font-size: 10px;
+  background: rgba(8, 253, 216, 0.1);
+  width: 70%;
+  overflow: hidden;
+  }
+  .info-map {
+    position: absolute;
+    right: 15%;
+    margin-left: 3vw;
+    margin-top: 20vh;
+    width: 120px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0.3rem;
+  ;
 
     span {
-      color: #ffd700;
+      font-size: 10px;
+
+      span {
+        color: #ffd700;
+      }
     }
   }
 }
+}
+@media screen and (max-width: 500px) {
+
+.contact-form {
+  margin-top:7vh ;
+}
+.map{
+  margin-top:10vh ;
+  margin-bottom: 5vh;
+}
+}
+@media screen and (max-width: 400px) {
+
+.contact-form {
+  margin-top:5vh ;
+}
+.map{
+  margin-top:3vh ;
 
 }
+}
+@media screen and (max-width: 360px) {
+
+.contact-form {
+  margin-top:5vh ;
+}
+.map{
+  margin-top:8vh ;
+  margin-bottom: 5vh;
+}
+}
+@media screen and (max-width: 330px) {
+
+.contact-form {
+  margin-top:5vh ;
+}
+.map{
+  margin-top:13vh ;
+  margin-bottom: 5vh;
+}
+}
+
